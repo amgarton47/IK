@@ -1,0 +1,18 @@
+Discord
+    - join discord channel
+
+UpLeveling vs. Reskilling vs. Promotion
+    - hard to do more than one at a time
+    - IK focuses on UpLeveling
+    - UpLeveling = systems design/ domain skills + DS/Algos skills + career skills (behavioral)
+
+Systems design
+    - scaling online systems
+    - scaling batch systems
+    - object modeling
+
+Mock Interviews
+    - 1 hour 1:1 sessions
+    - single topic or multiple topics
+    - grading scale for interviews are on a scale from 1-4
+    

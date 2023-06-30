@@ -1,0 +1,43 @@
+There are three "levels" of recursion problems
+
+1. enumeration
+2. enumeration with filtering (back tracking)
+3. DP - findind a specific value of the enumerations
+
+
+There are three "flavors" of DP problems
+
+1. counting
+    e.g. # of ways to climb stairs, # of unique paths in
+    a grid, ...
+
+2. decision
+    e.g. can a path be found in a grid with blockers, is it possible
+    to find a subset that satisfies some condition, ...
+
+3. optimization
+    e.g. best value path in a grid, minimum coins, ...
+
+
+
+Steps for solving DP problems
+1. come up with recurrence relation (i.e. how the given problem depends on its subproblems)
+
+2. verify that there is repeated work being done because of overlapping subproblems
+
+3. Solve
+    a. construct DP table with dimensions equal to the # of inputs
+    b. fill in the base cases
+    c. iterate in (topological) order over the table, filling in values 
+       based on the recurrence equation
+    
+4. Time / space complexity
+
+5. follow-ups
+    a. Can you optimize on space by only keeping track of part of the table
+       at any given time 
+    b. can you reconstruct the solution
+        - for optimization problems
+        - for decision problems
+
+        
